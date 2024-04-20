@@ -13,7 +13,7 @@ namespace OpenWeatherMap
 
             Console.WriteLine("Please enter your zipcode");
             
-            var zipCode = Console.ReadLine();
+            string zipCode = Console.ReadLine();
 
             string APICall = $"https://api.openweathermap.org/data/2.5/weather?zip={zipCode}&units=imperial&appid={APIKey}";
 
